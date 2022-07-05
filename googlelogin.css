@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.login{
+    border: solid;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: rgb(90, 89, 89);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.settings{
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.forgot{
+    text-align: left;
+}
+
+.learn{
+    text-align: left;
+}
+
+img{
+    height: 30px;
+    margin-top: 25px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+a{
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(125, 155, 253);
+    text-decoration: none;
+}
+
+.learn{
+    margin-top: 1px;
+    background-color: white;
+    border: none;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(125, 155, 253);
+}
+
+.create{
+    background-color: white;
+    border: none;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(125, 155, 253);
+}
+
+.next{
+    background-color: rgb(125, 155, 253);
+    color: white;
+    font-size: medium;
+    height: 35px;
+    width: 65px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login p{
+    margin-top: 35px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    margin-right: 10px;
+}
